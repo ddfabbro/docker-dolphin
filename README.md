@@ -1,9 +1,9 @@
-Docker images for [Dolphin Emulator](https://wiki.dolphin-emu.org/index.php?title=Main_Page), [Ishiiruka](https://github.com/Tinob/Ishiiruka) and [FasterMelee](https://github.com/FasterMelee/Ishiiruka).
+Dockerfiles for building [Dolphin Emulator](https://wiki.dolphin-emu.org/index.php?title=Main_Page), [Ishiiruka](https://github.com/Tinob/Ishiiruka) and [FasterMelee](https://github.com/FasterMelee/Ishiiruka).
 
 # Instructions
 
 Start a container from image:
-`docker run [flags] ddfabbro/dolphin-emu:[version]`
+`docker run [flags] --name [container] ddfabbro/dolphin-emu:[tag]`
 
 You should use `docker run` once to start a container. If you exit the container you can restart it using:
 `docker start [container]`
@@ -29,5 +29,13 @@ You should use `docker run` once to start a container. If you exit the container
  ```
 - **Mount local game directory:** 
 ```
--v /path/to/isos:/root
+-v /path/to/isos:/home
 ```
+
+# [container]
+
+Choose a name for the container (e.g. `'Faster Melee 5.9'`)
+
+# [tag]
+
+Pick one of the available [tags](https://hub.docker.com/r/ddfabbro/dolphin-emu/tags/)
