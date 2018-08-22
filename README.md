@@ -24,6 +24,8 @@ You should use `docker run` once to start a container. If you exit the container
 --group-add $(getent group audio | cut -d: -f3)
 ```
 - **Controller support:**
- `--device /dev/input`
+ ```
+ --device /dev/input
+ ```
 - **Mount local game directory:** 
 `-v /path/to/isos:/root`
