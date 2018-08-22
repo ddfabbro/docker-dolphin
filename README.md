@@ -1,4 +1,4 @@
-Dockerfiles for building [Dolphin Emulator](https://wiki.dolphin-emu.org/index.php?title=Main_Page), [Ishiiruka](https://github.com/Tinob/Ishiiruka) and [FasterMelee](https://github.com/FasterMelee/Ishiiruka).
+Dockerfiles for building [Dolphin Emulator](https://wiki.dolphin-emu.org/index.php?title=Main_Page), [Ishiiruka](https://github.com/Tinob/Ishiiruka) and [Faster Melee](https://github.com/FasterMelee/Ishiiruka).
 
 # Instructions
 
