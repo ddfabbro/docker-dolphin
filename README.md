@@ -28,4 +28,6 @@ You should use `docker run` once to start a container. If you exit the container
  --device /dev/input
  ```
 - **Mount local game directory:** 
-`-v /path/to/isos:/root`
+```
+-v /path/to/isos:/root
+```
