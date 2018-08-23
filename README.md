@@ -31,7 +31,7 @@ You should use `docker run` once to start a container. If you exit the container
 ```
 -v /path/to/isos:/path/to/anywhere/in/container
 ```
-Your dolphin configuration files will also be stored in this directory.
+Your dolphin configuration files will also be stored in this directory
 
 # [container]
 
