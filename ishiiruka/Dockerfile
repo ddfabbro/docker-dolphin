@@ -13,4 +13,4 @@ ca-certificates \
 && cd / \
 && rm -rf /usr/src/Ishiiruka/ /var/lib/apt/lists/*
 
-ENTRYPOINT [ "/usr/local/bin/dolphin-emu" ]
+ENTRYPOINT [ "/usr/local/bin/ishiiruka" ]
